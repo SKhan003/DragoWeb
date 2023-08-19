@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dragon Fire</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="loader">
+    <h1 class="zoom">Dragon Fire</h1>
+    <h3 class="scramble">Dragon Fire</h3>
+    <div class="loading"></div>
+    <h1 id="load"><span id="text">00</span>%</h1>
+</div>
+  <div id="main">
+    <div id="page1">
+      <img src="https://dragonslake.com/wp-content/themes/dl/assets/img/preloader/mask.svg" alt="" />
+      <nav>
+        <img src="https://dragonslake.com/wp-content/themes/dl/assets/img/logo.svg" alt="" />
+        <h1>MENU</h1>
+      </nav>
+      <video muted
+        src="https://dragonslake.com/wp-content/themes/dl/assets/img/preloader/preloader_slideshow.mp4" load="true" preload="none"></video>
+
+      <div id="center">
+        <h1 class="reveal"><span>purposeful game</span></h1>
+        <h1 class="reveal"><span>developnment</span></h1>
+        <h1 class="reveal"><span>to support aaa titles</span></h1>
+      </div>
+    </div>
+    <div id="page2">
+      <h1>
+        we work with game makers to deliver<br /><span>great</span> gaming
+        expereinces
+      </h1>
+      <div id="container">
+        <div class="division">
+          <h1>Full game <br />development</h1>
+          <h5>
+            Let us handle the entire game <br />
+            development lifecycle to help <br />
+            you turn your rough idea into <br />
+            a full-fledged game.
+          </h5>
+        </div>
+        <div class="division">
+          <h1>Co- <br />development</h1>
+          <h5>
+            Extend your internal team <br />
+            with our self-sufficient <br />
+            developers to tackle your <br />
+            engineering challenges.
+          </h5>
+        </div>
+        <div class="division">
+          <h1>
+            Porting & <br />
+            remastering
+          </h1>
+          <h5>
+            Reach a bigger audience by <br />
+            porting your game to any <br />
+            platform, or breathe a new <br />
+            life into your long-dormant <br />
+            product.
+          </h5>
+        </div>
+        <div class="division chg">
+          <h1>
+            Creative <br />
+            services
+          </h1>
+          <h5>
+            Work with our unique creative <br />
+            talents to design the <br />
+            gameplay and craft <br />
+            immersive and consistent <br />
+            gaming experiences.
+          </h5>
+        </div>
+      </div>
+      <div id="btn">
+        <div id="hover"></div>
+        <h4>start your project</h4>
+      </div>
+    </div>
+    <div id="page3">
+      <canvas> </canvas>
+    </div>
+    <div id="page4">
+      <div id="explore">
+        <div class="diff">
+          <h1>explore our <br> recent work</h1>
+          <img class="imgone" src="https://dragonslake.com/wp-content/themes/dl/assets/img/home/cases/cases-bg.svg"
+            alt="">
+        </div>
+        <div class="diff">
+          <div class="dragger">
+            <div class="drag">
+              <!-- <div class="dragmouse">
+                <img id="mouse" src="./blob.svg" alt="">
+                <h6>Drag</h6>
+              </div> -->
+              <div id="shift" class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/image-66.png" alt="">
+                  <h3>Porting</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-4.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2022/08/case1.svg" alt="">
+                  <h3>Co-development</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-1.jpg" alt="">
+                </div>
+                <div id="color" class="gamebottom">
+                  <h3>VIEW CASE</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/Group-162.png" alt="">
+                  <h3>Co-development</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-7.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/05/meet_your_maker_logo_02765f4057-1-1.png"
+                    alt="">
+                  <h3>Porting</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/05/meet-your-maker_2.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2022/08/case3.png" alt="">
+                  <h3>Porting</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-2.jpg" alt="">
+                </div>
+                <div id="color" class="gamebottom">
+                  <h3>VIEW CASE</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/Group-163.png" alt="">
+                  <h3>Co-development</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-6.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/Bluelight.png" alt="">
+                  <h3>Full game development</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-3.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/image-69.png" alt="">
+                  <h3>Co-development</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-5.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>MORE DETAILS SOON</h3>
+                </div>
+              </div>
+              <div id="color" class="games">
+                <div class="blackHover">
+                  <img src="https://dragonslake.com/wp-content/uploads/2022/09/astroneer_logo.png" alt="">
+                  <h3>Porting</h3>
+                </div>
+                <div class="image">
+                  <img src="https://dragonslake.com/wp-content/uploads/2023/01/case-banner-8.jpg" alt="">
+                </div>
+                <div class="gamebottom">
+                  <h3>VIEW CASE</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page5">
+      <div class="diff">
+        <div class="diffText">
+          <h1>we've helped build <br>
+            <span>successful</span> games
+          </h1>
+          <h5>for 20+ game studios and publishers over the past 3 years</h5>
+          <div id="btn">
+            <div id="hover"></div>
+            <h4>start your project</h4>
+          </div>
+        </div>
+      </div>
+      <div class="diffi">
+        <div class="brands">
+          <div class="branding">
+            <img class="index1" src="https://dragonslake.com/wp-content/uploads/2022/08/counterplay-games.png" alt="">
+            <img class="index2" src="https://dragonslake.com/wp-content/uploads/2022/08/people-can-fly.png" alt="">
+
+          </div>
+          <div class="branding">
+            <img class="index1" src="https://dragonslake.com/wp-content/uploads/2022/08/system-era.png" alt="">
+            <img class="index2" src="https://dragonslake.com/wp-content/uploads/2022/08/supermassive-games.png" alt="">
+          </div>
+        </div>
+        <div class="brands">
+          <div class="branding">
+            <img class="index1" src="https://dragonslake.com/wp-content/uploads/2022/08/daybreak_logo.png" alt="">
+            <img class="index2" src="https://dragonslake.com/wp-content/uploads/2022/08/square-enix.png" alt="">
+          </div>
+          <div class="branding">
+            <img class="index1" src="https://dragonslake.com/wp-content/uploads/2022/08/partner1.jpg" alt="">
+            <img class="index2" src="https://dragonslake.com/wp-content/uploads/2022/08/people-can-fly.png" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <div id="page6">
+      <h1 class="scramble2">Choose Your<br>Weapons</h1>
+        <div class="models">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <model-viewer class="gun1" src="./3D models/gun_incineratorthermoelectricity_rifle.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/dragon_flail.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/aug.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/ballistic_knife.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/hw_xyz_school_detailing_duck_sci-fi_gun.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/illidaris_felstorm_fang__dae_weaponcraft.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/dao.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/sci-fi_sword.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/dragon_flail.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/service_laser_weapon_hermes-01.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/vadim_sverdlo_lowpoly_sci-fi_revolver.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+              <div class="carousel-item">
+                <model-viewer class="gun1" src="./3D models/sniper_rifle_redtalon.glb" auto-rotate camera-controls ar ios></model-viewer>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </div>
+    <div id="page7">
+      <div class="loopText1">
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+      </div>
+      <div class="loopText2">
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+        <h1>DRAGON FIRE </h1>
+      </div>
+    </div>
+    <div id="page8">
+      <div class="cover">
+        <div class="portion">
+          <h1>we would love to meet you in person</h1>
+        </div>
+        <div class="portiontwo">
+          <div class="cards">
+            <div class="imgNav">
+              <h5>date<br><span>23 JUNE 2023</span></h5>
+              <h5>location<br><span>CALGARY,CANADA</span></h5>
+            </div>
+            <img src="https://dragonslake.com/wp-content/themes/dl/assets/img/preloader/mask.svg    " alt="" id="dragonhoverlast">
+            <img src="https://dragonslake.com/wp-content/uploads/2023/05/Game-con-Canada.png" alt="">
+            <div class="imgbottom">
+              <h1>Game Co<br>Canada</h1>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="imgNav">
+              <h5>date<br><span>23 JUNE 2023</span></h5>
+              <h5>location<br><span>CALGARY,CANADA</span></h5>
+            </div>
+            <img src="https://dragonslake.com/wp-content/themes/dl/assets/img/preloader/mask.svg    " alt="" id="dragonhoverlast">
+            <img src="https://dragonslake.com/wp-content/uploads/2023/05/convention-blog-890x606-2.jpg" alt="">
+            <div class="imgbottom">
+              <h1>Develop:<br>Brighton</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page9">
+      <div id="loop">
+        <div class="onHoverWidth"></div>
+        <h1>LET'S TALK<img src="https://dragonslake.com/wp-content/themes/dl/assets/img/footer/letstalk-icon.svg"></h1>
+        <h1>LET'S TALK<img src="https://dragonslake.com/wp-content/themes/dl/assets/img/footer/letstalk-icon.svg"></h1>
+        <h1>LET'S TALK<img src="https://dragonslake.com/wp-content/themes/dl/assets/img/footer/letstalk-icon.svg"></h1>
+        <h1>LET'S TALK<img src="https://dragonslake.com/wp-content/themes/dl/assets/img/footer/letstalk-icon.svg"></h1>
+        <h1>LET'S TALK<img src="https://dragonslake.com/wp-content/themes/dl/assets/img/footer/letstalk-icon.svg"></h1>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <!-- 181-206,1813-1832 -->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+  integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+  integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+  <script src="./HTML_video_example/HTML_video_example/ac_quicktime.js"></script>
+  <script src="./src/Descramble.js"></script>
+  <script src="./src/script.js"></script>
+</body>
+</body>
+
+</html>
